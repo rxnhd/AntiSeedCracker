@@ -1,4 +1,4 @@
-# AntiSeedCracker
+ # AntiSeedCracker
 
 [![Build](https://github.com/SunsetRQ7/AntiSeedCracker/actions/workflows/build.yml/badge.svg)](https://github.com/SunsetRQ7/AntiSeedCracker/actions/workflows/build.yml)
 [![Release](https://img.shields.io/github/v/release/SunsetRQ/AntiSeedCracker)](https://github.com/SunsetRQ7/AntiSeedCracker/releases/latest)
@@ -12,7 +12,7 @@ AntiSeedCracker is a professional, multi-layer world seed protection plugin for 
 ---
 
 ## Features
-
+ 
 | Protection Layer | Description |
 |---|---|
 | **Login & Respawn Packet Spoofing** | Replaces the hashed seed in `JOIN_GAME` and `RESPAWN` network packets with a per-player cryptographically random fake seed. Operates at the Netty I/O level via PacketEvents before any client ever receives the real value. |
